@@ -1,0 +1,1536 @@
+/*!------Inicio cabecera --------->*/
+
+*{
+    margin: 1.8px;
+    padding: 1.2px;    
+    box-sizing: border-box ;  
+}
+
+body{
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+/*!-------------------------------------------------------------------------->*/
+
+
+/*!---- Inicio video Fondo de pantalla  ----->*/
+
+video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/*!---- Final video Fondo de pantalla  ----->*/
+/*!-------------------------------------------------------------------------->*/
+
+
+
+/*!-------------------------------------------------------------------------->*/
+  /*!---- Inicial Reproductor y PALA-PV ----->*/
+
+  .home .flexy {
+    width: 98%;
+    margin: 10px auto;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  /*!---- Final Reproductor y PALA-Pv ----->*/
+  /*!-------------------------------------------------------------------------->*/
+
+
+
+/*!-------------------------------------------------------------------------->*/
+  /*!---- Inicio Aside Coolumnas ----->*/
+
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    width: 100%;
+}
+
+  /*!-------->*/
+  .nav {
+    width: 100%;
+    height: 80px;
+    border: 1px auto;
+
+    color: white;
+    float: center;
+    margin: 5px 0 0 0;
+    display: flex;
+
+}
+  /*!-------->*/
+
+header {
+    width: 100%;
+    height: 120px;
+    border: 1px auto;
+    color: white;
+    float: left;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.opciones {
+    background: #0462fe;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.opciones li {
+   float: left;
+   list-style: none;
+   display: flex;
+}
+
+.opciones li a {
+    color: white;
+    padding: 6px 10px;
+    text-decoration: none;
+    display: block;
+    display: flex;
+ }
+  /*!-------->*/
+ .opciones li a:hover {
+    color: white;
+    background: #00ff24;
+    border-radius: 10px;
+    display: flex;
+ }
+  /*!-------->*/
+
+section {
+    width: 68%;
+    max-width: 1100;
+    height: 50px;
+    color: #000;
+    float: left;
+    border-radius: 5px 0 0 0;
+}
+
+.contenido img {
+    float: left;
+    padding: 5px;
+    display: flex;
+    width: 50%;
+    height: 303px;
+    border-radius: 0px 15px 15px 0px;
+    text-align: center;
+}
+
+.contenido p{
+    padding: 10px; 
+}
+legend{
+    margin-top: 15px;
+    color: red;
+    text-align: center;
+}
+hr {
+    width: 380px;
+    margin: auto;
+}
+
+/*!---- los aside--->*/
+
+/*!---- 01 -Buscanos--->*/
+aside {
+    width: 30%;
+    max-height: 350px;
+    height: 200px;
+    border: 1px auto;
+    display: flex;
+    color: white;
+    float: left;
+    margin: 5px 5px;
+    align-items: flex-start;
+}
+  /*!-------->*/
+
+
+    /*!---- 02 --- se vende  y Reloj->*/
+asideimg-2 {
+    width: 30%;
+    max-height: 650px;
+    height: 450px;
+    border: 1px auto;
+    display: flex;
+    color: white;
+    float: right;
+    margin: 5px 5px;
+    align-items: flex-start;
+    }
+    /*!---- 02 --- se vende ---->*/
+  
+      
+    /*!---- 03 ---el mundo gira y Donate->*/
+asideimg-3 {
+    width: 30%;
+    max-height: 650px;
+    height: 80px;
+    border: 1px auto;
+    display: flex;
+    color: white;
+    float: right;
+    margin: 5px 5px;
+    align-items: flex-end;
+    }
+    /*!---- 03 ---el mundo gira ---->*/
+
+
+/*!---- 05 --- me gusta->*/
+asideimg-5 {
+    width: 30%;
+    max-height: 1100px;
+    height:182px;
+    border: 1px auto;
+    display: flex;
+    color: white;
+    float: right;
+    margin: 5px 5px;
+    align-items: flex-end;
+    z-index: 1;
+}
+    /*!---- 05 --- me gusta ---->*/
+
+
+    /*!---- 04 --- artesania->*/
+asideimg-4 {
+    width: 30%;
+    max-height: 1100px;
+    height: 310px;
+    border: 1px auto;
+    display: flex;
+    color: white;
+    float: right;
+    margin: 5px 5px;
+    align-items: flex-end;
+}
+    /*!---- 04 --- artesania ---->*/
+
+.lateral {
+    float: left;
+    padding:13px;
+    text-align: center;
+    align-items: flex-end;
+}
+/*!---- Final Aside Coolumnas ----->*/
+/*!-------------------------------------------------------------------------->*/
+
+.fb-root {
+    width: 320px;
+}
+
+
+/*!-------------------------------------------------------------------------->*/
+/*!----- Inicio Parrafo marquee------>*/
+.parrafo1 marquee{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+    
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo2 marquee{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo3 marquee{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo1{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo2{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo3{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+/*!---  Final Parrafo marqueeee ----->*/
+/*!-------------------------------------------------------------------------->*/
+
+
+
+/*!-------------------------------------------------------------------------->*/
+/*!---- -inicio new venta  ------>*/
+.container {
+    height: 122vh;
+    display: flex;
+    place-items: center;
+    display: contents;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.container img {
+    height: 336px;
+    width: 60vw;
+    max-width: 900px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2%;
+    cursor: pointer;
+    align-items: center;
+}
+/*!-------------------------------------------------------------------------->*/
+
+
+
+/*!-------------------------------------------------------------------------->*/
+/*!------ Ininio el Mundo Gira ------>*/
+*
+section 
+{
+    transform-style: preserve-3d;
+}
+
+.tierra {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 260px;
+    height: 260px;
+    background: url(../IMAGENES/image.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    border-radius: 50%;
+    box-shadow: inset 0 0 20px rgb(0, 0, 0), 0 0 50px #4069ff;
+    animation: animateEarth 15s linear infinite;
+}
+
+@keyframes animateEarth {
+    0% { 
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -750px 0;
+    }
+}
+
+.circle {
+    transform-style: preserve-3d;
+    animation: animateText 10s linear infinite;
+}
+
+.circle span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #c3b000;
+    color: #000;
+    font-size: 1.2em;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    padding: 7px 10px;
+    transform: rotateY(calc(var(--i) * calc(360deg / 36))) translateZ(200px);
+    border-top: 4px solid #35146f;
+    border-bottom: 4px solid #35146f;
+}
+
+.circle span::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transform: translateZ(-5px);
+}
+
+@keyframes animateText {
+    0% {
+        transform: perspective(1000px) rotateY(360deg) rotateX(15deg) translateY(-30px);
+    }
+    100% { 
+        transform: perspective(1000px) rotateY(0deg) rotateX(15deg) translateY(-30px);
+     }
+ }
+/*!------ Final el Mundo Gira ------->*/
+/*!-------------------------------------------------------------------------->*/
+
+
+/*!-------------------------------------------------------------------------->*/
+/*!---- Inicial Reproductor y PALA-Pv ----->*/
+
+.home .flexy {
+    width: 98%;
+    margin: 10px auto;
+    margin-top: 0%;
+    display: flex;
+}
+/*!---- Final Reproductor y PALA-Pv ----->*/
+/*!-------------------------------------------------------------------------->*/
+
+
+
+/*!-------------------------------------------------------------------------->*/
+/*!---- Inicio artesanias ------>*/
+
+.mochila-container {
+    display: flex;
+    justify-content: center;  
+    text-align: center;
+    flex-wrap: wrap;
+    width: 95%;
+    float: center;
+    margin-top: 10px;
+}
+
+      /*!-------->*/
+.mochila {
+    width: 13%;
+    background-color: hwb(69 33% 29%);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 3px;
+}
+
+.mochila img {
+    width: 94%;
+    height: 100px;
+}
+
+.mochila-content {
+    padding: 6px;
+}
+
+.mochila-content h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.mochila-content p{
+    color: #000;
+    font-size: 15px;
+    line-height: 2.5;
+}
+
+.mochila-content .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
+}
+/*!---- Final artesanias ------>*/
+/*!-------------------------------------------------------------------------->*/
+
+
+
+/*!-------------------------------------------------------------------------->*/
+/*!-------Inicio Menu Circular------->*/
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu{
+    position: absolute;
+    margin-top: 8%;
+    left: 50%;
+    width: 0;
+    transform: translate(-50%, 55%);
+  }
+
+.container {
+	position: relative;
+	margin: 10px auto 0;
+    padding: 5px auto 0;
+    right: 8px;
+	width: 23%;
+	height:0px;
+}
+
+.toggle{
+    display: none;
+}
+
+.menu-social-media-icon{
+    margin-top: 25px;
+}
+
+.toggle + .menu-icon{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%) scale(1);
+    display: block;
+    background: #200c50;
+    color: #fff;
+    text-align: center;
+    font-size: 2.5em;
+    transition: all .8s;
+  }
+
+.menu i{
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 1.0em;
+    }
+
+.bxs-notification-off{
+    color: orangered;
+    }
+
+.bxs-image{
+    color: rgb(255, 204, 0);
+}
+
+.bxs-contact{
+    color: rgb(224, 34, 160);
+}
+
+.bxl-facebook{
+    color: rgb(16, 23, 234);
+}
+
+.bxl-twitter{
+    color: rgb(0, 72, 255);
+}
+
+.bxl-whatsapp-square{
+    color: rgb(0, 255, 8);
+}
+
+.toggle + .menu-icon:hover{
+    box-shadow: 5px 5px 20px 5px #000;
+  }
+
+  .toggle:checked + .menu-icon{
+    transform: translate(-50%, -50%) scale(.5);
+  }
+
+.menu input[type=checkbox] + label:before{
+    content: "";
+    position: absolute;
+}
+
+.toggle + .menu-social-media-icon:before,
+.toggle + .menu-social-media-icon:after{
+    content: "";
+    position: absolute;
+    margin: -3px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.toggle + .menu-social-media-icon::before{
+    width: 30px;
+    height: 0;
+    left: 10px;
+    top: 25px;
+}
+
+.toggle + .menu-social-media-icon::after{
+    width: 0;
+    height: 30px;
+    left: 25px;
+    top: 10px;
+}
+
+.toggle:checked + .menu-social-media-icon::before,
+.toggle:checked + .menu-social-media-icon::after{
+    transform: rotate(135deg);
+}
+
+.toggle ~ .social-media-icon{
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    width: 85px;
+    height: 85px;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all .3s;
+    border-radius: 50%;
+}
+
+.toggle:checked ~ .social-media-icon{
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(1){
+    top: -122px;
+    left: 0;
+    transition-delay: .0s;
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(2){
+    top: -74px;
+    left: 120px;
+    transition-delay: .125s;
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(3){
+    top: 56px;
+    left: 115px;
+    transition-delay: .25s;
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(4){
+    top: 122px;
+    left: 0;
+    transition-delay: .373s;
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(5){
+    top: 56px;
+    left: -115px;
+    transition-delay: .5s;
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(6){
+    top: -74px;
+    left: -120px;
+    transition-delay: .625s;
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(7){
+    top: 0;
+    left: -133px;
+    transition-delay: .75s;
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(8){
+    top: -94px;
+    left: -94px;
+    transition-delay: .875s;
+}
+/*!------- Final Menu Circular ------>*/
+/*!-------------------------------------------------------------------------->*/
+
+
+
+
+
+/*!--------- Inicio Intsrumentos Vallenato  Face y Back----- 
+--------->*/
+
+.totumo-head {
+    display: flex;
+    justify-content: center;
+}
+
+/*!----Inicio Parte Frontal ----->*/
+.card {
+    position: center;
+    width: 100%;
+    height: 340px;
+    margin: 4px;
+    padding: 0px;
+}
+
+.card .face {
+    position: absolute;
+    width: 100%;
+    max-width: 1200;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;  
+}
+
+.card .front h3 {
+    position: absolute;
+    bottom: 0;
+    border-radius: 4px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    background: rgba(0,0,0,.4); /*!-color regleta conga-trompeta-maracas---->*/
+    text-align: center;
+}
+
+.card .front .elacordeon {
+    position: center;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+    
+.card .front .lacaja {
+    position: center;
+    width: 100%;
+    max-height: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+    
+.card .front .laguacharaca {
+    position: center;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+    
+.card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+/*!----Final Parte Frontal ----->*/
+
+
+
+/*!----Inicio Parte Trasera ----->*/
+ .card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: linear-gradient(rgb(0, 204, 126), #0575e6, #6e2d3d, #ffF260);  /*!-color back---->*/
+    padding: 10px;
+    color: #000;  /*!-color parrafos back---->*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+    text-align: center;                             
+    box-shadow: 0 5px 10px #d31293;  /*!-color borde sobresale ---->*/
+ }  
+
+ .card .back .link {
+    border-top: solid 2px #000;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card .back .link a {
+    color: #fff;
+}
+
+.card .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card .back p {
+    letter-spacing: 1px;
+}
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+/*!----Final Parte Trasera ----->*/
+
+
+/*!-------------- Final Intsrumentos vallenato Face y Back----- --------->*/
+
+
+
+
+
+
+/*!-------------------------------------------------------------------------->*/
+  /*!------Inicio  Footer ----------->*/
+  
+  .footer {
+
+    width: 100%;
+    max-height: 100%;
+    padding: 0px 0px;
+    position: relative;
+    }
+  
+  .footer_p {
+    color: #000;
+    text-align: center;
+    }
+  
+  .footer_p2 {
+    color: #000;
+    text-align: center;
+  }
+  /*!------ Final  Footer ----------->*/
+/*!-------------------------------------------------------------------------->*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*!-------------------------------------------------------------------------->*
+
+
+/*!--Inicio direccionales abajo ----->*
+
+.pimienta {
+    text-align: center;
+}
+  
+.pimienta a {
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+  
+.header a:hover {
+    color: rgba(72, 10, 243);
+}
+  /*!-- Final direccionales abajo ---->*/
+
+
+
+/*!---- Inicio video Fondo de pntalla  ----->*
+
+video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/*!---- Final video Fondo de pntalla  ----->*/
+
+
+  /*!---- -inicio new venta  ----->*
+  .container {
+    height: 120vh;
+    display: grid;
+    place-items: center;
+    display: contents;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.container img {
+    height: 335px;
+    width: 85vw;
+    max-width: 1400px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2%;
+    cursor: pointer;
+}
+  /*!---- Final new venta  ----->*/
+
+
+/*!---Inicio borde animado cabecera--->*
+
+.contenedor-head .animate-bg {
+	position: relative;
+	margin: 10px auto 0;
+    border-radius: 15%;
+	width: 96%;
+	height: 50px;
+    background: linear-gradient(90deg, #000, #323232); 
+}
+
+.animate-bg:before, .animate-bg:after {
+	content: '';
+	position: absolute;
+	left: -8px;
+	top: -8px;
+	background: linear-gradient(120deg, #79fb00,
+    #ab4db8, #ffe600, #62dfd8,  
+	#68c775, #acfcc4,#ff6600, #00c3ff, #F4c2e4,
+    #adad02);
+	background-size: 300%;
+	width: calc(100% + 16px);
+	height: calc(19% + 16px);
+	z-index: -1;
+	animation: BGgradient 15s ease infinite; 
+}
+
+@keyframes BGgradient {
+	0% {
+		background-position: 0% 200%;
+	}
+	50% {
+		background-position: 200% 0%;
+	}
+	100% {
+		background-position: 0% 330%;
+	}
+}
+/*!--Final borde animado cabecera --->*/
+
+
+/*!---- Inicial Reproductor y PALA-PT ----->*
+
+  .home .flexy {
+    width: 98%;
+    margin: 10px auto;
+    margin-top: 0%;
+    display: flex;
+}
+    /*!---- Final Reproductor y PALA-PT ----->*/
+
+
+
+    
+/*!------------------- Inicial Reloj Digital ----------------->*
+* {
+    padding: 8px auto;
+    margin: 0px;
+}
+
+.reloj {
+    font-family: 'Share Tech Mono', monospace;
+    color: #000;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    text-shadow: 0 0 20px #d2d39e, 0 0 20px rgba(248, 245, 242, 0) ;
+}
+
+.tiempo{
+    letter-spacing: 0.01em;
+    text-align: center;
+    font-size: 30px;
+}
+
+.fecha{
+    letter-spacing: 0.01em;
+    text-align: center;
+    font-size: 30px;
+    padding: 8px 10px;
+}
+/*!----- Final Reloj Digital ----->*/
+
+/*!----- Inicio Hora y Donate ----->*
+
+.palaci-lahora {
+    float: left;
+}
+
+.palaci-donate {
+    float: right;
+}
+/*!---- Final Reloj digital, hora, Donate---->*/
+
+
+
+
+/*!----- Inicio Parrafo marquee------>*
+.parrafo1 marquee{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+    
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo2 marquee{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo3 marquee{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo1{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo2{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+
+.parrafo3{
+    font-size: 20px;
+    font-style: italic;
+    text-align: justify;
+
+	-webkit-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+box-shadow: -15px 7px 45px -3px rgba(0,0,0,0.75);
+}
+/*!---  Final Parrafo marqueeee ----->*/
+
+
+
+/*!---- Inicio artesanias ------>*
+
+.mochila-container {
+    display: flex;
+    justify-content: center;  
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+
+.mochila {
+    width: 180px;
+    background-color: hwb(69 33% 29%);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin: 5px;
+}
+
+.mochila img {
+    width: 100%;
+    height: 100px;
+}
+
+.mochila-content {
+    padding: 6px;
+}
+
+.mochila-content h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.mochila-content p{
+    color: #000;
+    font-size: 15px;
+    line-height: 2.5;
+}
+
+.mochila-content .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #000;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
+}
+/*!---- Final artesanias ------>*/
+
+
+/*!------ Ininio el Mundo Gira ------>*
+*
+section 
+{
+    transform-style: preserve-3d;
+}
+
+.earth {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 260px;
+    height: 260px;
+    background: url(../IMAGENES/image.jpg);
+    background-size: cover;
+    background-repeat: repeat-x;
+    border-radius: 50%;
+    box-shadow: inset 0 0 20px rgb(0, 0, 0), 0 0 50px #4069ff;
+    animation: animateEarth 15s linear infinite;
+}
+
+@keyframes animateEarth {
+    0% { 
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -750px 0;
+    }
+}
+
+.circle {
+    transform-style: preserve-3d;
+    animation: animateText 10s linear infinite;
+}
+
+.circle span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #c3b000;
+    color: #000;
+    font-size: 1.2em;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    padding: 7px 10px;
+    transform: rotateY(calc(var(--i) * calc(360deg / 36))) translateZ(200px);
+    border-top: 4px solid #35146f;
+    border-bottom: 4px solid #35146f;
+}
+
+.circle span::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transform: translateZ(-5px);
+}
+
+@keyframes animateText {
+    0% {
+        transform: perspective(1000px) rotateY(360deg) rotateX(15deg) translateY(-30px);
+    }
+    100% { 
+        transform: perspective(1000px) rotateY(0deg) rotateX(15deg) translateY(-30px);
+     }
+ }
+/*!------ Final el Mundo Gira ------->*/
+
+
+
+/*!-------Inicio Menu Circular------->*
+
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu{
+    position: absolute;
+    margin-top: 8%;
+    left: 50%;
+    width: 0;
+    transform: translate(-50%, 55%);
+  }
+
+.container {
+	position: relative;
+	margin: 10px auto 0;
+    padding: 5px auto 0;
+    right: 8px;
+	width: 23%;
+	height:0px;
+}
+
+.toggle{
+    display: none;
+}
+
+.menu-social-media-icon{
+    margin-top: 25px;
+}
+
+.toggle + .menu-icon{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%) scale(1);
+    display: block;
+    background: #200c50;
+    color: #fff;
+    text-align: center;
+    font-size: 2.5em;
+    transition: all .8s;
+  }
+
+.menu i{
+    padding-top: 30px;
+    font-weight: 600;
+    font-size: 1.0em;
+    }
+
+.bxs-notification-off{
+    color: orangered;
+    }
+
+.bxs-image{
+    color: rgb(255, 204, 0);
+}
+
+.bxs-contact{
+    color: rgb(224, 34, 160);
+}
+
+.bxl-facebook{
+    color: rgb(16, 23, 234);
+}
+
+.bxl-twitter{
+    color: rgb(0, 72, 255);
+}
+
+.bxl-whatsapp-square{
+    color: rgb(0, 255, 8);
+}
+
+.toggle + .menu-icon:hover{
+    box-shadow: 5px 5px 20px 5px #000;
+  }
+
+  .toggle:checked + .menu-icon{
+    transform: translate(-50%, -50%) scale(.5);
+  }
+
+.menu input[type=checkbox] + label:before{
+    content: "";
+    position: absolute;
+}
+
+.toggle + .menu-social-media-icon:before,
+.toggle + .menu-social-media-icon:after{
+    content: "";
+    position: absolute;
+    margin: -3px;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.toggle + .menu-social-media-icon::before{
+    width: 30px;
+    height: 0;
+    left: 10px;
+    top: 25px;
+}
+
+.toggle + .menu-social-media-icon::after{
+    width: 0;
+    height: 30px;
+    left: 25px;
+    top: 10px;
+}
+
+.toggle:checked + .menu-social-media-icon::before,
+.toggle:checked + .menu-social-media-icon::after{
+    transform: rotate(135deg);
+}
+
+.toggle ~ .social-media-icon{
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    width: 85px;
+    height: 85px;
+    left: 0;
+    top: 0;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all .3s;
+    border-radius: 50%;
+}
+
+.toggle:checked ~ .social-media-icon{
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(1){
+    top: -122px;
+    left: 0;
+    transition-delay: .0s;
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(2){
+    top: -74px;
+    left: 120px;
+    transition-delay: .125s;
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(3){
+    top: 56px;
+    left: 115px;
+    transition-delay: .25s;
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(4){
+    top: 122px;
+    left: 0;
+    transition-delay: .373s;
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(5){
+    top: 56px;
+    left: -115px;
+    transition-delay: .5s;
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(6){
+    top: -74px;
+    left: -120px;
+    transition-delay: .625s;
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(7){
+    top: 0;
+    left: -133px;
+    transition-delay: .75s;
+}
+
+.menu > .toggle:checked ~ .social-media-icon:nth-last-of-type(8){
+    top: -94px;
+    left: -94px;
+    transition-delay: .875s;
+}
+/*!------- Final Menu Circular ------>*/
+
+
+
+
+/*!---- Inicio arriba scrool ------>*
+  
+.lierlis {
+    scroll-behavior: smooth;
+  }
+  
+  .btn-scrolltop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    background: #030200;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 1;
+    transform: translateY(100px);
+    transition: 0.3s;
+  }
+  
+  .btn-scrolltop-on {
+    transform: translateY(0);
+  }
+  /*!---- Final arriba scrool ----->*/
+
+
+
+  /*!------Inicio  Footer ----------->*
+  
+  .footer {
+    background-color: hwb(41 7% 8% / 0.6);
+    margin-top: 1%;
+    width: 100%;
+    padding: 0px 0px;
+    position: relative;
+    }
+  
+  .footer_p {
+    color: #000;
+    text-align: center;
+    }
+  
+  .footer_p2 {
+    color: #000;
+    text-align: center;
+  }
+  /*!------ Final  Footer ----------->*/
+
+
+
+/*!-------------------------------------------------------------------------->*/
+
+  
+
+/*!----Inicio vende con nosotros --->* reemplazado
+.carruseles {
+    width: 1000%;
+    height: 100%;
+    display: flex;
+    display: flex;
+}
+
+.container-carousel {
+    position: relative;
+    width: 98%;
+    height: 380px;
+    background-color: #e0e0e0;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.66);
+    border-radius: 15px;
+    overflow: hidden;
+}
+  
+.slider-section {
+    width: calc(100% / 10);
+    height: 100%;
+}
+
+.slider-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.btn-left,
+.btn-right {
+    display: flex;
+    position: absolute;
+    top: 0%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff81;
+    transform: translate(0,-50%);
+    transition: .35s ease;
+    user-select: none;
+}
+
+.btn-left:hover,
+.btn-right:hover {
+    background-color: #333333d4;
+    color: #fff;
+}
+
+.btn-left {
+    left: 10px;
+}
+
+.btn-right {
+    right: 10px;
+}
+  /*!--- Final vende con nosotros--->*/
+
+    /*!--- Inicio vende con nosotros--->*
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container .maindiv{
+    width: 96%;
+    height: 350px;
+}
+
+.maindiv{
+    width: 96%;
+    height: 350px;
+    border-radius: 15px;
+    justify-content: center;
+        margin: 10px;
+    margin-top: 3%;
+    transform: translate(-50% -50%);
+    background-image: url('https://i.postimg.cc/SxWTZr0k/1.jpg');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 2px  #bfddc4;
+    animation: slider 120s infinite alternate ease-in-out;
+}
+
+@keyframes slider{
+    0%  { background-image: url('https://i.postimg.cc/SxWTZr0k/1.jpg');
+    }
+    10% { background-image: url('https://i.postimg.cc/kgG8zdBs/5.jpg');
+    }
+    20% { background-image: url('https://i.postimg.cc/3N48HnQk/23.jpg');
+    }
+    30% { background-image: url('https://i.postimg.cc/zfzqfJ1Z/24.jpg');
+    }
+    40% { background-image: url('https://i.postimg.cc/MZMfwYD0/25.jpg');
+    }
+    50% { background-image: url('https://i.postimg.cc/QdXMFgpy/26.jpg');
+    }
+    60% { background-image: url('https://i.postimg.cc/KY1xT04J/27.jpg');
+    }
+    70% { background-image: url('https://i.postimg.cc/BZB9XrMJ/28.jpg');
+    }
+    80% { background-image: url('https://i.postimg.cc/WbpRr5Hg/29.jpg');
+    }
+    90% { background-image: url('https://i.postimg.cc/52jZK61t/30.jpg');
+    }
+    100%{ background-image: url('https://i.postimg.cc/FsZ4B7qt/31.jpg');
+    }
+    }
+  /*!--- Final vende con nosotros--->*/
+
+  
